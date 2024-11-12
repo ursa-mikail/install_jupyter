@@ -40,7 +40,8 @@ echo "Jupyter Notebook installation is complete."
 # Output alias to .zshrc
 echo "Adding alias to .zshrc..."
 echo "alias jupyter_start='jupyter notebook; open -a \"/Applications/Google Chrome.app\" http://localhost:8888/tree'" >> ~/.zshrc
-echo "Alias added. Please run 'source ~/.zshrc' to reload the configuration."
+echo "Alias added. Running 'source ~/.zshrc' to reload the configuration ..."
+source ~/.zshrc;
 
 echo "Installation and configuration are complete. You can start Jupyter Notebook using the command 'jupyter_start'."
 

@@ -1,19 +1,12 @@
-1.Open a terminal and navigate to the directory where the script is saved.
-
-2.Make the script executable by running the command:
+1.Open a terminal and navigate to the directory where the script is saved. Make the script executable by running:
 
     chmod +x install_jupyter.sh
 
-
-3.Run the script with sudo to ensure it has the necessary permissions:
+2.Run the script with sudo to ensure it has the necessary permissions:
 
     sudo ./install_jupyter.sh
 
-4.After the script completes, reload your .zshrc configuration by running:
-
-    source ~/.zshrc
-
-5.Start Jupyter Notebook using the new alias:
+3.Start Jupyter Notebook using the new alias:
 
     jupyter_start
 
